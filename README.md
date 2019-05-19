@@ -1,4 +1,4 @@
-# ISSdos for ddos Attacker termux/linux/buntu
+# ISSdos for ddos Attacker termux/linux/ubuntu
 # only the purpose of education, I am not responsible for any losses in this program.
 
 # requirements
@@ -7,8 +7,8 @@
 # how to install
 * $git clone https://github.com/ROOT-HAWK/ISSdos
 * $chmod +x ISStress.py
-* $python2 ISStress.py
-
+* $python2 ISStress.py https://www.target.com -p 80 
+-s 100 
 # type -h for help
 * $python2 ISStress.py -h           
 * usage: ISStress.py [-h] [-p PORT] [-s SOCKETS] [-d] [-r] [-q] [--https] [host]
